@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body
+{
+    background-color: rgb(100, 228, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+    color: rgb(0, 110, 24);
+}
+#principal
+{
+    text-align: center;
+    background-color:  rgb(0, 110, 24);
+    color: white;
+}
+h2
+{
+    color: rgb(0, 118, 69);
+}
+.secundario
+{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(120, 37, 37);
+}

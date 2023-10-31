@@ -1,0 +1,20 @@
+@charset "UTF8";
+
+body
+{
+    background-image: url(imagens/pattern002.png);
+    /*traz uma imagem do diretório local como fundo de tela*/
+    background-repeat:no-repeat;
+    /*ao trazer uma imagem como fundo de tela ela se repete, mas com isso ela não ira fazer isso*/
+    background-size: 100px 100px;
+    /*resolução da imagem como fundo de tela*/
+    background-position: center center;
+    /*determina a posição da imagem de fundo sendo necessário informar o ponto de foco da imagem com ("right" ou "left"ou "center") para a coluna e ("top" ou "bottton" oi "center")*/
+    border: 1px dashed black;
+    /*na borda vc precisa informar o tamanho, estilo de linha e a cor que ela vai recever*/
+    height: 100vh;
+    /*vh é a altura da tela, nesse caso estamos dizendo para ela ter 100% do tamanho da tela para assim consegui centralizar a imagem*/
+
+
+    
+}

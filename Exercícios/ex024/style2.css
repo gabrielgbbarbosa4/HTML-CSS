@@ -1,0 +1,66 @@
+@charset "UTF8";
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table
+{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption
+{
+    font-size: 1.5em;
+    background-color: lightgray;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+th.pop
+{
+    width: 50px;
+}
+
+
+td, th
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead, tfoot
+{
+    background-color: gray;
+    color: white;
+}
+
+thead > tr > th
+{
+    position: sticky;
+    /*fixa o cabeçalho da tabela, assim quando rolar ele ainda ira aparecer*/
+    top: -1px;
+    /*determinha aonde ele sera fixado, essa posiçao determina o topo da tabale*/
+    background-color: gray;
+    /*precisa declarar novamente o fundo para ele continuar aparecendo*/
+}
+
+tbody > tr:nth-child(2n)
+/*faz com q a cor seja posta respeitando um padão, o numero dentro dos parenteses determina isso*/
+{
+    background-color: lightgray;
+}
+
+td.num
+{
+    text-align: right;
+}
+
+div#container
+{
+    overflow-x: auto;
+}
+/*cria uma barra lateral ou horizontal exclusivamete para a tabela*/

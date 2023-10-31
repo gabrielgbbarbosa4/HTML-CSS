@@ -1,0 +1,15 @@
+@charset "UTF*";
+@import url('https://fonts.googleapis.com/css2?family= Dancing + Script & display=swap');
+body
+{
+    font-size: 1em;
+    
+}
+h1,h2
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+}

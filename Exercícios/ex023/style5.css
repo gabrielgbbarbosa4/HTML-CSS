@@ -1,0 +1,33 @@
+@charset "UTF8";
+
+#conteiner
+{
+    background-color: purple;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    /*a imagem esta inserida junto com a cor no fundo o tamanho (size) pracisa ser declarado para que ocupe ezatamente o tamanho declararo (height e/ou width)*/
+    height: 500px;
+    padding: 10px;
+    height: 94.7vh;
+    /*sua altura ira ocupar 94.7% do tamanho da janela*/
+    position: relative;
+    /*usato quando precisa posicionar algo por dentro*/
+}
+
+#conteudo
+{
+    background-color: yellow;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    /*a imagem esta inserida junto com a cor no fundo o tamanho (size) pracisa ser declarado para que ocupe ezatamente o tamanho declararo (height e/ou width)*/
+    /*a declaração percentual indica que o tamanho da cor e imagem irá ocupar exatamente 100% da altura de largura do tamanho declarado*/
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    /*usato quando precisa se posicionar referente a outra ação declarada como absoluta*/
+    left: 50%;
+    top: 50%;
+    /*o ponto de referencia do "left" e do "top" será o superior esquerdo*/
+    transform: translate(-50%,-50%);
+    /*transformação de translação do ponto de referencia, nesse caso 50% a menos do que o normal referente a sua posição orizontal e vertical*/
+}

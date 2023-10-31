@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <h1> Tabela de Gostos</h1>
+     <!--
+        HIERARQUIA DE TABELA (SIMPLES)
+        TABLE = tabela
+            TABLE ROW (tr)= linha da tabela
+            TABLE HEADER (th)= cabeçalho de tabela
+            TABRE DATE (td)= dados de tabela
+    -->
+    <!--
+        CAPTION
+        THEAD
+            TR, 
+        TBODY
+            TR, TH, TD
+        TFOOT
+            TR, TH, TD
+        
+        TR é a linha que vc ira criar
+        TH é referente ao titulo
+        TD são os dados inseridos
+    -->
+    <table>
+
+        <thead>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th scope="colgroup" colspan="3">Filmes</th>
+            <!--
+                scope é usado para definir escopo de linhas ou colunas
+            -->
+        </thead>
+       <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Maria</td>
+                <td>Hulk</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+
+            <tr>
+                <td>Beatriz</td>
+                <td>Alien</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            
+            <tr>
+                <td>Claudia</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+
+            <tr>
+                <th scope="rowgroup" rowspan="4">Homens</th>
+                <td>Bruno</td>
+                <td>Intocaveis</td>
+                <td>Aminesia</td>
+                <td>Gladiador</td>
+            </tr>
+
+            <tr>
+                <td>Daniel</td>
+                <td>Star Wars</td>
+                <td>Frozen</td>
+                <td>Toy Story</td>
+            </tr>
+
+            <tr>
+                <td>Fabiano</td>
+                <td>Trpo de Elite</td>
+                <td>Velozes e Fuiriosos</td>
+                <td>Mercenarios</td>
+            </tr>
+       </tbody>
+
+       <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>6</td>
+            </tr>
+       </tfoot>
+        
+
+    </table>
+</body>
+</html>

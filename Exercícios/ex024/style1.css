@@ -1,0 +1,40 @@
+@charset "utf8";
+
+table
+{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+.ca
+{
+    background-color: aqua;
+}
+
+tr.linha1
+{
+    background-color: yellow;
+}
+
+th
+{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td
+{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    /*alinhamento orizontal*/
+    vertical-align: text-top;
+    /*alinhamento vertical*/
+}
+
+td.b4
+{
+    background-color: red;
+}
+

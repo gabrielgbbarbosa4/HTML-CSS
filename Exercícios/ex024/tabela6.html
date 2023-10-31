@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <h1>Tebale de Médias</h1>
+     <!--
+        HIERARQUIA DE TABELA (SIMPLES)
+        TABLE = tabela
+            TABLE ROW (tr)= linha da tabela
+            TABLE HEADER (th)= cabeçalho de tabela
+            TABRE DATE (td)= dados de tabela
+    -->
+    <!--
+        CAPTION
+        THEAD
+            TR, 
+        TBODY
+            TR, TH, TD
+        TFOOT
+            TR, TH, TD
+        
+        TR é a linha que vc ira criar
+        TH é referente ao titulo
+        TD são os dados inseridos
+    -->
+    <table>
+        <thead id="cabeçalho">
+            <tr>
+                <th rowspan="2">Area</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">nota</th>
+                <th rowspan="2">Média</th>
+            </tr>
+
+            <tr> 
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr id="cabeçalho">
+                <th colspan="4">Média de Exatas</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Histório</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr id="cabeçalho">
+                <th colspan="4">Média de Humanas</th>
+                <th>0.0</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

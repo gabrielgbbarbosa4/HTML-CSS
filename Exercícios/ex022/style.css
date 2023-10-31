@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h1
+{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    text-decoration: underline;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+a
+{
+    border-width: 10px;
+    border-style: dashed;
+    border-color: brown;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+aside
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 1px;
+}
