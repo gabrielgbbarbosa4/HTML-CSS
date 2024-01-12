@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Meu Primeiro Formulario</h1>
+    <form action="cadastro.php" autocomplete="off">
+    <!--o action vincuta os dados a uma linguagem a ser enviada-->
+    <!--autocomplete="off" desativa a sugestão do que se inserir no campo de texto-->    
+        <p><label for="IdNome">Nome:</label> 
+            <input type="text" name="Nome" id="IdNome">
+        </p>
+        
+        <p><label for="IdSobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="IdSobrenome">
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
